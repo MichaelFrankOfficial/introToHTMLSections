@@ -1,0 +1,151 @@
+.logoImg{
+    width:1662px;
+    height: 180px;
+}
+body{
+    background-image: url("resources/homeBackground.jpg");
+}
+.h1Title{
+    font-family: 'Passion One', cursive;
+    font-size: 100px;
+    color: rgb(0, 162, 255);
+    text-align: center;
+}
+.pHomePage{
+    font-size: 20px;
+    color: rgb(0, 162, 255);
+    background-color: rgb(75, 75, 75);
+}
+.h3HomePage{
+    font-size: 30px;
+    color: rgb(12, 112, 226);
+}
+li{
+    font-size: 20px;
+    color: rgb(0, 162, 255);
+    background-color: rgb(75, 75, 75);
+}
+#navBar{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    float: left;
+}
+.h1Alt{
+    text-align: center;
+    font-size: 150px;
+    color: rgb(0, 162, 255);
+}
+footer{
+    color: rgb(0, 162, 255);
+    text-align: center;
+    background-color: rgb(75, 75, 75);
+}
+article{
+    color: white;
+    font-size: 25px;
+    background-color: rgb(75, 75, 75);
+}
+.h2Forums{
+    text-decoration: underline;
+    font-size: 60px;
+    color: rgb(12, 112, 226);
+}
+.pAbout{
+    color: rgb(0, 162, 255);
+    background-color: rgb(75, 75, 75);
+    font-size: 25px;
+    text-align: center;
+}
+.h1About{
+    font-size: 45px;
+    color: rgb(0, 162, 255);
+    text-align: center;
+}
+.h2About{
+    font-size: 30px;
+    color: rgb(12, 112, 226);
+}
+a{
+    color:rgb(12, 112, 226);
+}
+span{
+    color: rgb(100, 232, 255);
+    font-size: 30px;
+    font-family: 'Podkova', serif;
+}
+.profileInfoAside{
+    border: 5px;
+    top: 1034px;
+    left: 1283px;
+    width: 304px;
+    height: 120px;
+    position: absolute;
+    outline-color: rgb(12, 112, 226);
+    outline-style: solid;
+}
+.pContact{
+    color: rgb(0, 162, 255);
+    font-size: 25px;
+    text-align: left;
+    left: 120px;
+}
+.contactInfoAside{
+    border: 5px;
+    top: 564px;
+    left: 103px;
+    width: 304px;
+    height: 320px;
+    position: absolute;
+    outline-color: rgb(12, 112, 226);
+    outline-style: solid;
+}
+.emailInfoAside{
+    border: 5px;
+    top: 564px;
+    left: 673px;
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    outline-color: rgb(12, 112, 226);
+    outline-style: solid;
+}
+.contactlabel{
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+}
+.subButton{
+    border: 3px;
+    top: 284px;
+    left: 123px;
+    width: 70px;
+    height: 25px;
+    position: absolute;
+    outline-color: rgb(12, 112, 226);
+    outline-style: solid;
+}
+.socialMediaAside{
+    border: 5px;
+    top: 564px;
+    left: 1250px;
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    outline-color: rgb(12, 112, 226);
+    outline-style: solid;
+}
+.socialImg{
+    width: 250px;
+    height: 100px;
+    top: 200px;
+
+}
+.pSocial{
+    text-align: center;
+    margin-left: 5px;
+    font-size: 25px;
+    color: rgb(12, 112, 226);
+    font-family: 'Permanent Marker', cursive;
+}
