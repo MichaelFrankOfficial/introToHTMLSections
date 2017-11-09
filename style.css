@@ -1,9 +1,126 @@
 .logoImg{
-    width:1662px;
-    height: 180px;
+    width:256px;
+    height: 90px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.logo{
+    display: inline-block;
+    width: 256px;
+    height: 70px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+#main-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#primary-content{
+    display: flex;
+    min-height: 100%;
+}
+#primary-content main{
+    width: 60%;
+    margin-left: 120px;
+}
+#primary-content h2{
+    font-size: 40px;
+    width: 300px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: rgba(34, 34, 34, 0.4);
+    color: rgb(0, 162, 255);
+}
+#primary-content {
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(0, 162, 255);
+    margin-top: 30px;
+    background: rgba(0, 0, 0, 0.4);
+}
+#primary-content aside{
+    width: 40%;
+    border-color:rgb(75, 75, 75);
+    border-style: solid;
+    padding-left: 20px;
+    margin-right: 160px;
+    margin-top: 40px;
+}
+#about-wrapper{
+    background: rgba(34, 34, 34, 0.2);
+}
+#forum-content main{
+    width: 300px;
+}
+#forum-primary-content main{
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(0, 162, 255);
+    margin-top: 30px;
+    width: 40%;
+}
+#forum-primary-content aside{
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(0, 162, 255);
+    margin-top: 30px;
+    width: 40%;
+}
+#forum-primary-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    padding-left: 40px;
+    padding-right: 20px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.divBorder{
+    border-color:rgb(75, 75, 75);
+    background: rgba(0, 0, 0, 0.4);
+    border-style: solid;
+    padding-left: 20px;
+    margin-left: 160px;
+    margin-top: 40px;
+    width: 400px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(34, 34, 34, 20.7);
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    background:none;
+    flex-wrap: wrap;
+}
+nav ul li{
+    border-bottom:none;
+    position: relative;
+    list-style-type: none;
+    margin-left: 200px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(75, 75, 75);
 }
 body{
     background-image: url("resources/homeBackground.jpg");
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 .h1Title{
     font-family: 'Passion One', cursive;
@@ -14,7 +131,7 @@ body{
 .pHomePage{
     font-size: 20px;
     color: rgb(0, 162, 255);
-    background-color: rgb(75, 75, 75);
+    background: rgba(0, 0, 0, 0.4);
 }
 .h3HomePage{
     font-size: 30px;
@@ -23,14 +140,6 @@ body{
 li{
     font-size: 20px;
     color: rgb(0, 162, 255);
-    background-color: rgb(75, 75, 75);
-}
-#navBar{
-    position: relative;
-    width: 100%;
-    height: auto;
-    background-color: gray;
-    float: left;
 }
 .h1Alt{
     text-align: center;
@@ -45,7 +154,10 @@ footer{
 article{
     color: white;
     font-size: 25px;
-    background-color: rgb(75, 75, 75);
+}
+.aboutArticle{
+    color: white;
+    font-size: 25px;
 }
 .h2Forums{
     text-decoration: underline;
@@ -54,18 +166,29 @@ article{
 }
 .pAbout{
     color: rgb(0, 162, 255);
-    background-color: rgb(75, 75, 75);
     font-size: 25px;
     text-align: center;
+    background: rgba(0, 0, 0, 0.4);
 }
 .h1About{
     font-size: 45px;
     color: rgb(0, 162, 255);
     text-align: center;
+    background: rgba(0, 0, 0, 0.4);
 }
 .h2About{
     font-size: 30px;
     color: rgb(12, 112, 226);
+    background: rgba(0, 0, 0, 0.4);
+}
+#about-flex{
+    border-color:rgb(75, 75, 75);
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 400px;
 }
 a{
     color:rgb(12, 112, 226);
@@ -77,13 +200,14 @@ span{
 }
 .profileInfoAside{
     border: 5px;
-    top: 1034px;
-    left: 1283px;
+    top: 612px;
+    left: 1183px;
     width: 304px;
     height: 120px;
     position: absolute;
     outline-color: rgb(12, 112, 226);
     outline-style: solid;
+    background: rgba(0, 0, 0, 0.4);
 }
 .pContact{
     color: rgb(0, 162, 255);
